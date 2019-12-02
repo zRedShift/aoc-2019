@@ -24,7 +24,7 @@ fn part_two(numbers: &[i32]) -> i32 {
         .map(|x| {
             let mut x = x / 3 - 2;
             let mut sum = 0;
-            while x >= 0 {
+            while x > 0 {
                 sum += x;
                 x = x / 3 - 2;
             }
